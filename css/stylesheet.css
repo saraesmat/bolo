@@ -1,0 +1,69 @@
+
+body {
+    background-image: url("slide-01.jpg");
+    background-repeat: repeat-x;
+    background-color: rgb(153, 251, 153);
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    text-decoration: wavy;
+}
+
+h3 {
+    color: rgb(76, 145, 6);
+}
+
+div.words {
+    text-align: left;
+    font-size: 60px;
+    color: rgb(210, 4, 4);
+}
+
+div.more {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(84, 126, 12);
+}
+
+div.gallery {
+    margin: 10px;
+    border: 3px seagreen;
+    float: right;
+    width: 300px;
+}
+
+    div.gallery:hover {
+        transition: 1s;
+        border: 5px green;
+        padding: 5px;
+        position: static;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: 90%;
+        transition-duration: 5px;
+    }
+
+form {
+    text-align: center;
+    font-size: 40px;
+}
+
+#more {
+    font-size: 50px;
+    color: rgb(158, 9, 9);
+}
+
+#Greeting {
+    font-size: 40px;
+    color: crimson;
+}
+
+.rr {
+    padding-right: 40%;
+    padding-left: 30%;
+}
+}
